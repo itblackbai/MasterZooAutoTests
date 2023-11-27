@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Tests.RegistrationTest
 {
-    public class NegativeTests :BaseTest
+    public class RegistrationNegativeTests :BaseTest
     {
         private RegistrationTestData testData = new RegistrationTestData();
 

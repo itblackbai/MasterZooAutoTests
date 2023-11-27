@@ -25,6 +25,8 @@ namespace MasterZooAutoTests.TestData
         public string ErrorMessegeWithFullNameBySymbol = "Используются недопустимые символы";
 
         public string ErrorMessegeWithEmptyName = "Вкажіть ім'я";
+
+        public string EmptyEmail = "";
         public string ErrorMessegeWithEmptyEmail = "Некоректна адреса електронної пошти";
         public string ErrorMessegeWithThePassword = "Пароль має бути не менше 8 і не більше 15 символів.";
 
@@ -40,10 +42,14 @@ namespace MasterZooAutoTests.TestData
         public string ErrorMassegeWithTheSameEmail = "Упс! Користувач з такою адресою вже зареєстрований. " +
             "Якщо це ви, будь ласка, зайдіть в свій особистий кабінет або відновіть пароль на сторінці входу.";
 
-      
+
+        public string ErrorMessegeOnLoginPage = "Невірний логін або пароль. " +
+            "Якщо вам потрібно нагадати пароль, скористайтеся функцією відновлення паролю.";
 
 
+        public string recoverMessege = "На вашу електронну пошту надіслано посилання для відновлення паролю";
 
+        public string recoverMessegeWithUnvalidData = "Немає користувача з такою адресою е-пошти";
 
         private static string GenerateRandomValidEmail()
         {

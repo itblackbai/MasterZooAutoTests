@@ -31,6 +31,7 @@ namespace MasterZooAutoTests
         public AccountPage ClickOnProfile()
         {
             Console.WriteLine("Click on profile button");
+            Thread.Sleep(1000);
             Find(profileList).Click();
             return new AccountPage(_driver);
         }
