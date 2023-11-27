@@ -8,7 +8,7 @@ using MasterZooAutoTests.TestData;
 
 namespace Tests.RegistrationTest
 {
-    public class RegistrationTests : BaseTest
+    public class RegistrationPossitiveTests : BaseTest
     {
         private RegistrationTestData testData = new RegistrationTestData();
 
